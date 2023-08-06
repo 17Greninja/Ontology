@@ -1,0 +1,2343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hotel SYSTEM 'hotel.dtd'>
+<hotel hotel_id="AEf1123" rating="4">
+  <name>The Grand IITians Hotel</name>
+  <address>
+    <street> Gajendra Circle </street>
+    <city>Chennai</city>
+    <state>Tamil Nadu</state>
+    <pincode>600036</pincode>
+  </address>
+  <phNo>+91 9878065214</phNo>
+  <phNo>04345665004</phNo>
+  <website>thegrandiithotel.com</website>
+  <email_id>info@thegrandiithotel.com</email_id>
+  <dept dept_id="D1" head="E100">
+    <name>Office</name>
+    <phNo>111111</phNo>
+    <employee emp_id="E100">
+      <name>oleg</name>
+      <address>
+        <street>Room 1</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>1111111</phNo>
+      <login_detail login_id="L100" password="password1"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E1000">
+          <name>Mahesh</name>
+          <address>
+            <street>Banjara Hills</street>
+            <city>Hyderabad</city>
+            <state>Andhra Pradesh</state>
+          </address>
+          <phNo>9087656231</phNo>
+          <login_detail login_id="L1000" password="gfyftf"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E101">
+      <name>omar</name>
+      <address>
+        <street>Room 2</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>1111112</phNo>
+      <login_detail login_id="L101" password="password2"/>
+      <role>Lady Clerk</role>
+
+    </employee>
+    <employee emp_id="E102">
+      <name>alex</name>
+      <address>
+        <street>Room 3</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>1111113</phNo>
+      <login_detail login_id="L102" password="password3"/>
+      <role>Lady Clerk</role>
+
+    </employee>
+    <employee emp_id="E103">
+      <name>abdul</name>
+      <address>
+        <street>Room 4</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>1111114</phNo>
+      <login_detail login_id="L103" password="password4"/>
+      <role>Male Clerk</role>
+
+    </employee>
+    <employee emp_id="E104">
+      <name>albert</name>
+      <address>
+        <street>Room 5</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>1111115</phNo>
+      <login_detail login_id="L104" password="password5"/>
+      <role>Receptionist</role>
+
+    </employee>
+    <employee emp_id="E105">
+      <name>andrew</name>
+      <address>
+        <street>Room 6</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>1111116</phNo>
+      <login_detail login_id="L105" password="password6"/>
+      <role>Receptionist</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D2" head="E200">
+    <name>Housekeeping</name>
+    <phNo>222222</phNo>
+    <employee emp_id="E200">
+      <name>hamza</name>
+      <address>
+        <street>Room 7</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111111</phNo>
+      <login_detail login_id="L200" password="password7"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E1001">
+          <name>Karthik</name>
+          <address>
+            <street>Gandhi Street</street>
+            <city>Kochi</city>
+            <state>Kerala</state>
+          </address>
+          <phNo>6767890123</phNo>
+          <login_detail login_id="L1001" password="gyugyufu"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E201">
+      <name>hanif</name>
+      <address>
+        <street>Room 8</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111112</phNo>
+      <login_detail login_id="L201" password="password8"/>
+      <role>Toilet Cleaner</role>
+
+    </employee>
+    <employee emp_id="E202">
+      <name>hannah</name>
+      <address>
+        <street>Room 9</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111113</phNo>
+      <login_detail login_id="L202" password="password9"/>
+      <role>Maid</role>
+
+    </employee>
+    <employee emp_id="E203">
+      <name>bob</name>
+      <address>
+        <street>Room 10</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111114</phNo>
+      <login_detail login_id="L203" password="password0"/>
+      <role>Maid</role>
+
+    </employee>
+    <employee emp_id="E204">
+      <name>bradley</name>
+      <address>
+        <street>Room 11</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111115</phNo>
+      <login_detail login_id="L204" password="password1"/>
+      <role>Toilet Cleaner</role>
+
+    </employee>
+    <employee emp_id="E205">
+      <name>carrie</name>
+      <address>
+        <street>Room 12</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111116</phNo>
+      <login_detail login_id="L205" password="password2"/>
+      <role>Toiler</role>
+
+    </employee>
+    <employee emp_id="E206">
+      <name>carraugh</name>
+      <address>
+        <street>Room 13</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111117</phNo>
+      <login_detail login_id="L206" password="password3"/>
+      <role>Floor Cleaner</role>
+
+    </employee>
+    <employee emp_id="E207">
+      <name>carmen</name>
+      <address>
+        <street>Room 14</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111118</phNo>
+      <login_detail login_id="L207" password="password4"/>
+      <role>Floor Cleaner</role>
+
+    </employee>
+    <employee emp_id="E208">
+      <name>connie</name>
+      <address>
+        <street>Room 15</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111119</phNo>
+      <login_detail login_id="L208" password="password5"/>
+      <role>Floor Cleaner</role>
+
+    </employee>
+    <employee emp_id="E209">
+      <name>kathy</name>
+      <address>
+        <street>Room 16</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>2111120</phNo>
+      <login_detail login_id="L209" password="password6"/>
+      <role>Toilet Cleaner</role>
+
+    </employee>
+    <employee emp_id="E210">
+      <name>krirsten</name>
+      <address>
+        <street>Room 17</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>211121</phNo>
+      <login_detail login_id="L210" password="password7"/>
+      <role>Floor Cleaner</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D3" head="E300">
+    <name>Kitchen</name>
+    <phNo>333333</phNo>
+    <employee emp_id="E300">
+      <name>debbie</name>
+      <address>
+        <street>Room 18</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>3111111</phNo>
+      <login_detail login_id="L300" password="password8"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E1002">
+          <name>Prabhas</name>
+          <address>
+            <street>Palace Road</street>
+            <city>Maheshmati</city>
+            <state>Telengana</state>
+          </address>
+          <phNo>7337509366</phNo>
+          <login_detail login_id="L1002" password="iuweufhwue"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E301">
+      <name>donna</name>
+      <address>
+        <street>Room 19</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>3111112</phNo>
+      <login_detail login_id="L301" password="password9"/>
+      <role>Porter</role>
+
+    </employee>
+    <employee emp_id="E302">
+      <name>david</name>
+      <address>
+        <street>Room 20</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>3111113</phNo>
+      <login_detail login_id="L302" password="0password"/>
+      <role>Head Chef</role>
+
+    </employee>
+    <employee emp_id="E303">
+      <name>dick</name>
+      <address>
+        <street>Room 21</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>3111114</phNo>
+      <login_detail login_id="L303" password="1password"/>
+      <role>Head Chef</role>
+
+    </employee>
+    <employee emp_id="E304">
+      <name>dave</name>
+      <address>
+        <street>1st Street, KK Nagar</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>3111115</phNo>
+      <login_detail login_id="L304" password="2password"/>
+      <role>Sous Chef</role>
+
+    </employee>
+    <employee emp_id="E305">
+      <name>dilbert</name>
+      <address>
+        <street>Lane 23</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>3111116</phNo>
+      <login_detail login_id="L305" password="3password"/>
+      <role>Manager</role>
+
+    </employee>
+    <employee emp_id="E306">
+      <name>douglas</name>
+      <address>
+        <street>3rd Cross Street</street>
+        <city>Bangalore</city>
+        <state>Karnataka</state>
+      </address>
+      <phNo>3111117</phNo>
+      <login_detail login_id="L306" password="4password"/>
+      <role>Station Chef</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D4" head="E400">
+    <name>Security</name>
+    <phNo>444444</phNo>
+    <employee emp_id="E400">
+      <name>suzie</name>
+      <address>
+        <street>Room 25</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111111</phNo>
+      <login_detail login_id="L400" password="p5assword"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E2000">
+          <name>Surya</name>
+          <address>
+            <street>Adyar</street>
+            <city>Chennai</city>
+            <state>Tamil Nadu</state>
+          </address>
+          <phNo>9898878765</phNo>
+          <login_detail login_id="L2000" password="sudhwhe"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E401">
+      <name>sarah</name>
+      <address>
+        <street>Room 26</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111112</phNo>
+      <login_detail login_id="L401" password="6password"/>
+      <role>Day Watchman</role>
+
+    </employee>
+    <employee emp_id="E402">
+      <name>sasha</name>
+      <address>
+        <street>Room 27</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111113</phNo>
+      <login_detail login_id="L402" password="7password"/>
+      <role>Day Watchman</role>
+
+    </employee>
+    <employee emp_id="E403">
+      <name>sally</name>
+      <address>
+        <street>Room 28</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111114</phNo>
+      <login_detail login_id="L403" password="8password"/>
+      <role>Day Watchman</role>
+
+    </employee>
+    <employee emp_id="E404">
+      <name>sunny</name>
+      <address>
+        <street>4th Lane, Nehru Nagar</street>
+        <city>New Delhi</city>
+        <state>Delhi</state>
+      </address>
+      <phNo>4111115</phNo>
+      <login_detail login_id="L404" password="9password"/>
+      <role>Night Watchman</role>
+
+    </employee>
+    <employee emp_id="E405">
+      <name>jack</name>
+      <address>
+        <street>Room 30</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111116</phNo>
+      <login_detail login_id="L405" password="pass0word"/>
+      <role>Night Watchman</role>
+
+    </employee>
+    <employee emp_id="E406">
+      <name>jerome</name>
+      <address>
+        <street>Room 31</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111117</phNo>
+      <login_detail login_id="L406" password="pass1word"/>
+      <role>Guard</role>
+
+    </employee>
+    <employee emp_id="E407">
+      <name>jeremiah</name>
+      <address>
+        <street>Room 32</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111118</phNo>
+      <login_detail login_id="L407" password="pass2word"/>
+      <role>Guard</role>
+
+    </employee>
+    <employee emp_id="E408">
+      <name>jared</name>
+      <address>
+        <street>Room 33</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111119</phNo>
+      <login_detail login_id="L408" password="pass3word"/>
+      <role>Guard</role>
+
+    </employee>
+    <employee emp_id="E409">
+      <name>jill</name>
+      <address>
+        <street>Room 34</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111120</phNo>
+      <login_detail login_id="L409" password="pass4word"/>
+      <role>Bouncer</role>
+
+    </employee>
+    <employee emp_id="E410">
+      <name>joe</name>
+      <address>
+        <street>Room 35</street>
+        <city>Trichy</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>4111121</phNo>
+      <login_detail login_id="L410" password="pass5word"/>
+      <role>Bouncer</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D5" head="E500">
+    <name>Human Resources</name>
+    <phNo>555555</phNo>
+    <employee emp_id="E500">
+      <name>rick</name>
+      <address>
+        <street>Room 36</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111111</phNo>
+      <login_detail login_id="L500" password="pass6word"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E2001">
+          <name>Dulqar</name>
+          <address>
+            <street>MM Street</street>
+            <city>Kochi</city>
+            <state>Kerala</state>
+          </address>
+          <phNo>8908908901</phNo>
+          <login_detail login_id="L2001" password="iamdulqar"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E501">
+      <name>rex</name>
+      <address>
+        <street>Room 37</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111112</phNo>
+      <login_detail login_id="L501" password="pass7word"/>
+      <role>Hiring</role>
+
+    </employee>
+    <employee emp_id="E502">
+      <name>robert</name>
+      <address>
+        <street>Banjara Hills</street>
+        <city>Hyderabad</city>
+        <state>Telangana</state>
+      </address>
+      <phNo>5111113</phNo>
+      <login_detail login_id="L502" password="pass8word"/>
+      <role>Hiring</role>
+
+    </employee>
+    <employee emp_id="E503">
+      <name>rupert</name>
+      <address>
+        <street>Room 39</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111114</phNo>
+      <login_detail login_id="L503" password="pass9word"/>
+      <role>Assistant</role>
+
+    </employee>
+    <employee emp_id="E504">
+      <name>richard</name>
+      <address>
+        <street>Palm Lane, Adyar</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111115</phNo>
+      <login_detail login_id="L504" password="p1assword"/>
+      <role>Associate</role>
+
+    </employee>
+    <employee emp_id="E505">
+      <name>robbie</name>
+      <address>
+        <street>Room 41</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111116</phNo>
+      <login_detail login_id="L505" password="p2assword"/>
+      <role>Specialist</role>
+
+    </employee>
+    <employee emp_id="E506">
+      <name>ronald</name>
+      <address>
+        <street>Room 42</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111117</phNo>
+      <login_detail login_id="L506" password="p3assword"/>
+      <role>Specialist</role>
+
+    </employee>
+    <employee emp_id="E507">
+      <name>rayleigh</name>
+      <address>
+        <street>Room 43</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>5111118</phNo>
+      <login_detail login_id="L507" password="p4assword"/>
+      <role>Personal Manager</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D6" head="E600">
+    <name>Information Technology</name>
+    <phNo>666666</phNo>
+    <employee emp_id="E600">
+      <name>tom</name>
+      <address>
+        <street>Room 44</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>6111111</phNo>
+      <login_detail login_id="L600" password="pwdrfg"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E3000">
+          <name>Siddharth</name>
+          <address>
+            <street>Pali Street</street>
+            <city>Bhandra West</city>
+            <state>Maharashtra</state>
+          </address>
+          <phNo>9234567098</phNo>
+          <login_detail login_id="L3000" password="sidstuasd"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E601">
+      <name>terry</name>
+      <address>
+        <street>Room 45</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>6111112</phNo>
+      <login_detail login_id="L601" password="p6assword"/>
+      <role>Repairer</role>
+
+    </employee>
+    <employee emp_id="E602">
+      <name>trevor</name>
+      <address>
+        <street>Room 46</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>6111113</phNo>
+      <login_detail login_id="L602" password="p7assword"/>
+      <role>Repairer</role>
+
+    </employee>
+    <employee emp_id="E603">
+      <name>tanush</name>
+      <address>
+        <street>Room 47</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>6111114</phNo>
+      <login_detail login_id="L603" password="p8assword"/>
+      <role>Scammer</role>
+
+    </employee>
+    <employee emp_id="E604">
+      <name>tarang</name>
+      <address>
+        <street>Room 48</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>6111115</phNo>
+      <login_detail login_id="L604" password="p9assword"/>
+      <role>Coordinator</role>
+
+    </employee>
+    <employee emp_id="E605">
+      <name>tanya</name>
+      <address>
+        <street>Room 49</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>6111116</phNo>
+      <login_detail login_id="L605" password="pa1ssword"/>
+      <role>Coordinator</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D7" head="E700">
+    <name>Accounts</name>
+    <phNo>777777</phNo>
+    <employee emp_id="E700">
+      <name>virat</name>
+      <address>
+        <street>Room 50</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>7111111</phNo>
+      <login_detail login_id="L700" password="pa2ssword"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E3001">
+          <name>Katrina</name>
+          <address>
+            <street>Maple Street</street>
+            <city>Delhi</city>
+            <state>Delhi</state>
+          </address>
+          <phNo>9090901212</phNo>
+          <login_detail login_id="L3001" password="iamkatkai"/>
+          <role/>
+        </employee>
+      </assistant>
+    </employee>
+    <employee emp_id="E701">
+      <name>veronica</name>
+      <address>
+        <street>Room 51</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>7111112</phNo>
+      <login_detail login_id="L701" password="pas3sword"/>
+      <role>Accountant</role>
+
+    </employee>
+    <employee emp_id="E702">
+      <name>vizer</name>
+      <address>
+        <street>Room 52</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>71111113</phNo>
+      <login_detail login_id="L702" password="pas4sword"/>
+      <role>Accountant</role>
+
+    </employee>
+    <employee emp_id="E703">
+      <name>will</name>
+      <address>
+        <street>Room 53</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>7111114</phNo>
+      <login_detail login_id="L703" password="pass5word"/>
+      <role>Controller</role>
+
+    </employee>
+    <employee emp_id="E704">
+      <name>wong</name>
+      <address>
+        <street>Room 54</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>7111115</phNo>
+      <login_detail login_id="L704" password="passw6ord"/>
+      <role>Controller</role>
+
+    </employee>
+    <employee emp_id="E705">
+      <name>yang</name>
+      <address>
+        <street>Room 55</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>7111116</phNo>
+      <login_detail login_id="L705" password="passwo7rd"/>
+      <role>Assistant</role>
+
+    </employee>
+    <employee emp_id="E706">
+      <name>shlomo</name>
+      <address>
+        <street>Room 56</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>7111117</phNo>
+      <login_detail login_id="L706" password="passwor8d"/>
+      <role>Assistant</role>
+
+    </employee>
+  </dept>
+  <dept dept_id="D8" head="E800">
+    <name>Purchase</name>
+    <phNo>888888</phNo>
+    <employee emp_id="E800">
+      <name>pam</name>
+      <address>
+        <street>Room 57</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111111</phNo>
+      <login_detail login_id="L800" password="password9"/>
+      <role>Supervisor</role>
+      <assistant>
+        <employee emp_id="E4000">
+          <name>Vishal</name>
+          <address>
+            <street>RK Nagar</street>
+            <city>Coimbatore</city>
+            <state>Tamil Nadu</state>
+          </address>
+          <phNo>7686564312</phNo>
+          <login_detail login_id="L4000" password="wishvish"/>
+          <role>Assistant</role>
+        </employee>
+      </assistant>
+
+    </employee>
+    <employee emp_id="E801">
+      <name>prentice</name>
+      <address>
+        <street>Room 58</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111112</phNo>
+      <login_detail login_id="L801" password="password0"/>
+      <role>Supplies</role>
+
+    </employee>
+    <employee emp_id="E802">
+      <name>paul</name>
+      <address>
+        <street>Room 59</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111113</phNo>
+      <login_detail login_id="L802" password="password11"/>
+      <role>Supplies</role>
+
+    </employee>
+    <employee emp_id="E803">
+      <name>prerna</name>
+      <address>
+        <street>Room 60</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111114</phNo>
+      <login_detail login_id="L803" password="password12"/>
+      <role>Assistant Manager</role>
+
+    </employee>
+    <employee emp_id="E804">
+      <name>parekh</name>
+      <address>
+        <street>Room 61</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111115</phNo>
+      <login_detail login_id="L804" password="password13"/>
+      <role>Assistant Manager</role>
+
+    </employee>
+    <employee emp_id="E805">
+      <name>pauline</name>
+      <address>
+        <street>Room 62</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111116</phNo>
+      <login_detail login_id="L805" password="password14"/>
+      <role>Supplies</role>
+
+    </employee>
+    <employee emp_id="E806">
+      <name>pooh</name>
+      <address>
+        <street>Room 63</street>
+        <city>Chennai</city>
+        <state>Tamil Nadu</state>
+      </address>
+      <phNo>8111117</phNo>
+      <login_detail login_id="L806" password="password15"/>
+      <role>Associate Manager</role>
+
+    </employee>
+  </dept>
+  <room room_no="R101" floor="1">
+    <room_type/>
+  </room>
+  <room room_no="R102" floor="1">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R103" floor="1">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R104" floor="1">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R105" floor="1">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R106" floor="1">
+    <room_type cost="&reg_cost;"/>
+  </room>
+  <room room_no="R107" floor="1">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R108" floor="1">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R109" floor="1">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R110" floor="1">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R201" floor="2">
+    <room_type type="regular"/>
+  </room>
+  <room room_no="R202" floor="2">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R203" floor="2">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R204" floor="2">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R205" floor="2">
+    <room_type cost="&reg_cost;"/>
+  </room>
+  <room room_no="R206" floor="2">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R207" floor="2">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R208" floor="2">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R209" floor="2">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R210" floor="2">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R301" floor="3">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R302" floor="3">
+    <room_type/>
+  </room>
+  <room room_no="R303" floor="3">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R304" floor="3">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R305" floor="3">
+    <room_type cost="&reg_cost;"/>
+  </room>
+  <room room_no="R306" floor="3">
+    <room_type/>
+  </room>
+  <room room_no="R307" floor="3">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R308" floor="3">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R309" floor="3">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R310" floor="3">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R401" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R402" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R403" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R404" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R405" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R406" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R407" floor="4">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R408" floor="4">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R409" floor="4">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R410" floor="4">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R501" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R502" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R503" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R504" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R505" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R506" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R507" floor="5">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R508" floor="5">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R509" floor="5">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R510" floor="5">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R601" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R602" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R603" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R604" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R605" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R606" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R607" floor="6">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R608" floor="6">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R609" floor="6">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R610" floor="6">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R701" floor="7">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R702" floor="7">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R703" floor="7">
+    <room_type type="regular" cost="&reg_cost;"/>
+  </room>
+  <room room_no="R704" floor="7">
+    <room_type type="regular" cost="&med_cost;"/>
+  </room>
+  <room room_no="R705" floor="7">
+    <room_type type="regular" cost="&med_cost;"/>
+  </room>
+  <room room_no="R706" floor="7">
+    <room_type type="regular" cost="&med_cost;"/>
+  </room>
+  <room room_no="R707" floor="7">
+    <room_type type="regular" cost="&med_cost;"/>
+  </room>
+  <room room_no="R708" floor="7">
+    <room_type type="luxury" cost="&med_cost;"/>
+  </room>
+  <room room_no="R709" floor="7">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <room room_no="R710" floor="7">
+    <room_type type="luxury" cost="&lux_cost;"/>
+  </room>
+  <customer cust_id="C1010">
+    <name>liam</name>
+    <phNo>1010</phNo>
+    <address>
+      <street>Room 1</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>liam@gmail.com</email_id>
+    <reservation res_id="Res1" room="R101">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1020">
+    <name>noah</name>
+    <phNo>1020</phNo>
+    <address>
+      <street>Room 2</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>noah@gmail.com</email_id>
+    <reservation res_id="Res2" room="R102">
+      <date_in>2022-01-02</date_in>
+      <date_out>2022-01-04</date_out>
+      <res_date>2022-01-02</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1030">
+    <name>oliver</name>
+    <phNo>1030</phNo>
+    <address>
+      <street>Room 3</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>oliver@gmail.com</email_id>
+    <reservation res_id="Res3" room="R103">
+      <date_in>2022-01-03</date_in>
+      <date_out>2022-01-06</date_out>
+      <res_date>2022-01-03</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1040">
+    <name>elijah</name>
+    <phNo>1040</phNo>
+    <address>
+      <street>Room 4</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>elijah@gmail.com</email_id>
+    <reservation res_id="Res4" room="R104">
+      <date_in>2022-01-04</date_in>
+      <date_out>2022-01-08</date_out>
+      <res_date>2022-01-04</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1050">
+    <name>james</name>
+    <phNo>1050</phNo>
+    <address>
+      <street>Room 5</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>james@gmail.com</email_id>
+    <reservation res_id="Res5" room="R105">
+      <date_in>2022-01-05</date_in>
+      <date_out>2022-01-10</date_out>
+      <res_date>2022-01-05</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1060">
+    <name>william</name>
+    <phNo>1060</phNo>
+    <address>
+      <street>Room 6</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>william@gmail.com</email_id>
+    <reservation res_id="Res6" room="R106">
+      <date_in>2022-01-06</date_in>
+      <date_out>2022-01-12</date_out>
+      <res_date>2022-01-06</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1070">
+    <name>benjamin</name>
+    <phNo>1070</phNo>
+    <address>
+      <street>Room 7</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>benjamin@gmail.com</email_id>
+    <reservation res_id="Res7" room="R107">
+      <date_in>2022-01-07</date_in>
+      <date_out>2022-01-14</date_out>
+      <res_date>2022-01-07</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1080">
+    <name>lucas</name>
+    <phNo>1080</phNo>
+    <address>
+      <street>Room 8</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>lucas@gmail.com</email_id>
+    <reservation res_id="Res8" room="R108">
+      <date_in>2022-01-08</date_in>
+      <date_out>2022-01-16</date_out>
+      <res_date>2022-01-08</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1090">
+    <name>henry</name>
+    <phNo>1090</phNo>
+    <address>
+      <street>Room 9</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>henry@gmail.com</email_id>
+    <reservation res_id="Res9" room="R109">
+      <date_in>2022-01-09</date_in>
+      <date_out>2022-01-18</date_out>
+      <res_date>2022-01-09</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C1100">
+    <name>theodore</name>
+    <phNo>1100</phNo>
+    <address>
+      <street>Room 10</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>theodore@gmail.com</email_id>
+    <reservation res_id="Res10" room="R110">
+      <date_in>2022-01-10</date_in>
+      <date_out>2022-01-20</date_out>
+      <res_date>2022-01-10</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2010">
+    <name>mia</name>
+    <phNo>2010</phNo>
+    <address>
+      <street>Room 11</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>mia@gmail.com</email_id>
+    <reservation res_id="Res11" room="R201">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2020">
+    <name>sanjana</name>
+    <phNo>2020</phNo>
+    <address>
+      <street>Room 12</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>sanjana@gmail.com</email_id>
+    <reservation res_id="Res12" room="R202">
+      <date_in>2022-02-02</date_in>
+      <date_out>2022-02-04</date_out>
+      <res_date>2022-02-02</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2030">
+    <name>juee</name>
+    <phNo>2030</phNo>
+    <address>
+      <street>Room 13</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>juee@gmail.com</email_id>
+    <reservation res_id="Res13" room="R203">
+      <date_in>2022-02-03</date_in>
+      <date_out>2022-02-06</date_out>
+      <res_date>2022-02-03</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2040">
+    <name>pranjul</name>
+    <phNo>2040</phNo>
+    <address>
+      <street>Room 14</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>pranjul@gmail.com</email_id>
+    <reservation res_id="Res14" room="R204">
+      <date_in>2022-02-04</date_in>
+      <date_out>2022-02-08</date_out>
+      <res_date>2022-02-04</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2050">
+    <name>shreeya</name>
+    <phNo>2050</phNo>
+    <address>
+      <street>Room 15</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>shreeya@gmail.com</email_id>
+    <reservation res_id="Res15" room="R205">
+      <date_in>2022-02-05</date_in>
+      <date_out>2022-02-10</date_out>
+      <res_date>2022-02-05</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2060">
+    <name>bella</name>
+    <phNo>2060</phNo>
+    <address>
+      <street>Room 16</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>bella@gmail.com</email_id>
+    <reservation res_id="Res16" room="R206">
+      <date_in>2022-02-06</date_in>
+      <date_out>2022-02-12</date_out>
+      <res_date>2022-02-06</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2070">
+    <name>dhruv</name>
+    <phNo>2070</phNo>
+    <address>
+      <street>Room 17</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>dhruv@gmail.com</email_id>
+    <reservation res_id="Res17" room="R207">
+      <date_in>2022-02-07</date_in>
+      <date_out>2022-02-14</date_out>
+      <res_date>2022-02-07</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2080">
+    <name>aahaana</name>
+    <phNo>2080</phNo>
+    <address>
+      <street>Room 18</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>aahaana@gmail.com</email_id>
+    <reservation res_id="Res18" room="R208">
+      <date_in>2022-02-08</date_in>
+      <date_out>2022-02-16</date_out>
+      <res_date>2022-02-08</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2090">
+    <name>jai</name>
+    <phNo>2090</phNo>
+    <address>
+      <street>Room 19</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>jai@gmail.com</email_id>
+    <reservation res_id="Res19" room="R209">
+      <date_in>2022-02-09</date_in>
+      <date_out>2022-02-18</date_out>
+      <res_date>2022-02-09</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C2100">
+    <name>paarth</name>
+    <phNo>2100</phNo>
+    <address>
+      <street>Room 20</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>parth@gmail.com</email_id>
+    <reservation res_id="Res20" room="R210">
+      <date_in>2022-02-10</date_in>
+      <date_out>2022-02-20</date_out>
+      <res_date>2022-02-10</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3010">
+    <name>jack</name>
+    <phNo>3010</phNo>
+    <address>
+      <street>Room 21</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>jack@gmail.com</email_id>
+    <reservation res_id="Res21" room="R301">
+      <date_in>2022-03-01</date_in>
+      <date_out>2022-03-02</date_out>
+      <res_date>2022-03-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3020">
+    <name>levi</name>
+    <phNo>3020</phNo>
+    <address>
+      <street>Room 22</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>levi@gmail.com</email_id>
+    <reservation res_id="Res22" room="R302">
+      <date_in>2022-03-02</date_in>
+      <date_out>2022-03-04</date_out>
+      <res_date>2022-03-02</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3030">
+    <name>alexander</name>
+    <phNo>3030</phNo>
+    <address>
+      <street>Room 23</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>alexander@gmail.com</email_id>
+    <reservation res_id="Res23" room="R303">
+      <date_in>2022-03-03</date_in>
+      <date_out>2022-03-06</date_out>
+      <res_date>2022-03-03</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3040">
+    <name>jackson</name>
+    <phNo>3040</phNo>
+    <address>
+      <street>Room 24</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>jackson@gmail.com</email_id>
+    <reservation res_id="Res24" room="R304">
+      <date_in>2022-03-04</date_in>
+      <date_out>2022-03-08</date_out>
+      <res_date>2022-03-04</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3050">
+    <name>mateo</name>
+    <phNo>3050</phNo>
+    <address>
+      <street>Room 25</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>mateo@gmail.com</email_id>
+    <reservation res_id="Res25" room="R305">
+      <date_in>2022-03-05</date_in>
+      <date_out>2022-03-10</date_out>
+      <res_date>2022-03-05</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3060">
+    <name>daniel</name>
+    <phNo>3060</phNo>
+    <address>
+      <street>Room 26</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>daniel@gmail.com</email_id>
+    <reservation res_id="Res26" room="R306">
+      <date_in>2022-03-06</date_in>
+      <date_out>2022-03-12</date_out>
+      <res_date>2022-03-06</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3070">
+    <name>michael</name>
+    <phNo>3070</phNo>
+    <address>
+      <street>Room 27</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>michael@gmail.com</email_id>
+    <reservation res_id="Res27" room="R307">
+      <date_in>2022-03-07</date_in>
+      <date_out>2022-03-14</date_out>
+      <res_date>2022-03-07</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3080">
+    <name>mason</name>
+    <phNo>3080</phNo>
+    <address>
+      <street>Room 28</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>mason@gmail.com</email_id>
+    <reservation res_id="Res28" room="R308">
+      <date_in>2022-03-08</date_in>
+      <date_out>2022-03-16</date_out>
+      <res_date>2022-03-08</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3090">
+    <name>sebastian</name>
+    <phNo>3090</phNo>
+    <address>
+      <street>Room 29</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>sebastian@gmail.com</email_id>
+    <reservation res_id="Res29" room="R309">
+      <date_in>2022-03-09</date_in>
+      <date_out>2022-03-18</date_out>
+      <res_date>2022-03-09</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C3100">
+    <name>ethan</name>
+    <phNo>3100</phNo>
+    <address>
+      <street>Room 30</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>ethan@gmail.com</email_id>
+    <reservation res_id="Res30" room="R310">
+      <date_in>2022-03-10</date_in>
+      <date_out>2022-01-20</date_out>
+      <res_date>2022-01-10</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4010">
+    <name>krishna</name>
+    <phNo>4010</phNo>
+    <address>
+      <street>Room 31</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>krishna@gmail.com</email_id>
+    <reservation res_id="Res31" room="R401">
+      <date_in>2022-04-01</date_in>
+      <date_out>2022-04-02</date_out>
+      <res_date>2022-04-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4020">
+    <name>chandu</name>
+    <phNo>4020</phNo>
+    <address>
+      <street>Room 32</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>chandu@gmail.com</email_id>
+    <reservation res_id="Res32" room="R402">
+      <date_in>2022-04-02</date_in>
+      <date_out>2022-04-04</date_out>
+      <res_date>2022-04-02</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4030">
+    <name>madhu</name>
+    <phNo>4030</phNo>
+    <address>
+      <street>Room 33</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>madhu@gmail.com</email_id>
+    <reservation res_id="Res33" room="R403">
+      <date_in>2022-04-03</date_in>
+      <date_out>2022-04-06</date_out>
+      <res_date>2022-04-03</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4040">
+    <name>bhondu</name>
+    <phNo>4040</phNo>
+    <address>
+      <street>Room 34</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>bhondu@gmail.com</email_id>
+    <reservation res_id="Res34" room="R404">
+      <date_in>2022-04-04</date_in>
+      <date_out>2022-04-08</date_out>
+      <res_date>2022-04-04</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4050">
+    <name>shweta</name>
+    <phNo>4050</phNo>
+    <address>
+      <street>Room 35</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>shweta@gmail.com</email_id>
+    <reservation res_id="Res35" room="R405">
+      <date_in>2022-04-05</date_in>
+      <date_out>2022-04-10</date_out>
+      <res_date>2022-04-05</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4060">
+    <name>meghana</name>
+    <phNo>4060</phNo>
+    <address>
+      <street>Room 36</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>meghana@gmail.com</email_id>
+    <reservation res_id="Res36" room="R406">
+      <date_in>2022-04-06</date_in>
+      <date_out>2022-04-12</date_out>
+      <res_date>2022-04-06</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4070">
+    <name>raghu</name>
+    <phNo>4070</phNo>
+    <address>
+      <street>Room 37</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>raghu@gmail.com</email_id>
+    <reservation res_id="Res37" room="R407">
+      <date_in>2022-04-07</date_in>
+      <date_out>2022-04-14</date_out>
+      <res_date>2022-04-07</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4080">
+    <name>ram</name>
+    <phNo>4080</phNo>
+    <address>
+      <street>Room 38</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>ram@gmail.com</email_id>
+    <reservation res_id="Res38" room="R408">
+      <date_in>2022-04-08</date_in>
+      <date_out>2022-04-16</date_out>
+      <res_date>2022-04-08</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4090">
+    <name>shyam</name>
+    <phNo>4090</phNo>
+    <address>
+      <street>Room 39</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>shyam@gmail.com</email_id>
+    <reservation res_id="Res39" room="R409">
+      <date_in>2022-04-09</date_in>
+      <date_out>2022-04-18</date_out>
+      <res_date>2022-04-09</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C4100">
+    <name>adithya</name>
+    <phNo>4100</phNo>
+    <address>
+      <street>Room 40</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>adithya@gmail.com</email_id>
+    <reservation res_id="Res40" room="R410">
+      <date_in>2022-04-10</date_in>
+      <date_out>2022-04-20</date_out>
+      <res_date>2022-04-10</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5010">
+    <name>logan</name>
+    <phNo>5010</phNo>
+    <address>
+      <street>Room 41</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>logan@gmail.com</email_id>
+    <reservation res_id="Res41" room="R501">
+      <date_in>2022-05-01</date_in>
+      <date_out>2022-05-02</date_out>
+      <res_date>2022-05-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5020">
+    <name>owen</name>
+    <phNo>5020</phNo>
+    <address>
+      <street>Room 42</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>owen@gmail.com</email_id>
+    <reservation res_id="Res42" room="R502">
+      <date_in>2022-05-02</date_in>
+      <date_out>2022-05-04</date_out>
+      <res_date>2022-05-02</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5030">
+    <name>samuel</name>
+    <phNo>5030</phNo>
+    <address>
+      <street>Room 43</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>samuel@gmail.com</email_id>
+    <reservation res_id="Res43" room="R503">
+      <date_in>2022-05-03</date_in>
+      <date_out>2022-05-06</date_out>
+      <res_date>2022-05-03</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5040">
+    <name>jacob</name>
+    <phNo>5040</phNo>
+    <address>
+      <street>Room 44</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>jacob@gmail.com</email_id>
+    <reservation res_id="Res44" room="R504">
+      <date_in>2022-05-04</date_in>
+      <date_out>2022-05-08</date_out>
+      <res_date>2022-05-04</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5050">
+    <name>asher</name>
+    <phNo>5050</phNo>
+    <address>
+      <street>Room 45</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>asher@gmail.com</email_id>
+    <reservation res_id="Res45" room="R505">
+      <date_in>2022-05-05</date_in>
+      <date_out>2022-05-10</date_out>
+      <res_date>2022-05-05</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5060">
+    <name>aiden</name>
+    <phNo>5060</phNo>
+    <address>
+      <street>Room 46</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>aiden@gmail.com</email_id>
+    <reservation res_id="Res46" room="R506">
+      <date_in>2022-05-06</date_in>
+      <date_out>2022-05-12</date_out>
+      <res_date>2022-05-06</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5070">
+    <name>john</name>
+    <phNo>5070</phNo>
+    <address>
+      <street>Room 47</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>john@gmail.com</email_id>
+    <reservation res_id="Res47" room="R507">
+      <date_in>2022-05-07</date_in>
+      <date_out>2022-05-14</date_out>
+      <res_date>2022-05-07</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5080">
+    <name>joseph</name>
+    <phNo>5080</phNo>
+    <address>
+      <street>Room 48</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>joseph@gmail.com</email_id>
+    <reservation res_id="Res48" room="R508">
+      <date_in>2022-05-08</date_in>
+      <date_out>2022-05-16</date_out>
+      <res_date>2022-05-08</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5090">
+    <name>wyatt</name>
+    <phNo>5090</phNo>
+    <address>
+      <street>Room 49</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>wyatt@gmail.com</email_id>
+    <reservation res_id="Res49" room="R509">
+      <date_in>2022-05-09</date_in>
+      <date_out>2022-05-18</date_out>
+      <res_date>2022-05-09</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C5100">
+    <name>david</name>
+    <phNo>5100</phNo>
+    <address>
+      <street>Room 50</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>david@gmail.com</email_id>
+    <reservation res_id="Res50" room="R510">
+      <date_in>2022-05-10</date_in>
+      <date_out>2022-05-20</date_out>
+      <res_date>2022-05-10</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6010">
+    <name>leo</name>
+    <phNo>6010</phNo>
+    <address>
+      <street>Room 51</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>leo@gmail.com</email_id>
+    <reservation res_id="Res51" room="R601">
+      <date_in>2022-06-01</date_in>
+      <date_out>2022-06-02</date_out>
+      <res_date>2022-06-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6020">
+    <name>luke</name>
+    <phNo>6020</phNo>
+    <address>
+      <street>Room 52</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>luke@gmail.com</email_id>
+    <reservation res_id="Res52" room="R602">
+      <date_in>2022-06-02</date_in>
+      <date_out>2022-06-04</date_out>
+      <res_date>2022-06-02</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6030">
+    <name>julian</name>
+    <phNo>6030</phNo>
+    <address>
+      <street>Room 53</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>julian@gmail.com</email_id>
+    <reservation res_id="Res53" room="R603">
+      <date_in>2022-06-03</date_in>
+      <date_out>2022-06-06</date_out>
+      <res_date>2022-06-03</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6040">
+    <name>hudson</name>
+    <phNo>6040</phNo>
+    <address>
+      <street>Room 54</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>hudon@gmail.com</email_id>
+    <reservation res_id="Res54" room="R604">
+      <date_in>2022-06-04</date_in>
+      <date_out>2022-06-08</date_out>
+      <res_date>2022-06-04</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6050">
+    <name>superman</name>
+    <phNo>6050</phNo>
+    <address>
+      <street>Room 55</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>superman@gmail.com</email_id>
+    <reservation res_id="Res55" room="R605">
+      <date_in>2022-06-05</date_in>
+      <date_out>2022-06-10</date_out>
+      <res_date>2022-06-05</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6060">
+    <name>batman</name>
+    <phNo>6060</phNo>
+    <address>
+      <street>Room 56</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>batman@gmail.com</email_id>
+    <reservation res_id="Res56" room="R606">
+      <date_in>2022-06-06</date_in>
+      <date_out>2022-06-12</date_out>
+      <res_date>2022-06-06</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6070">
+    <name>shitman</name>
+    <phNo>6070</phNo>
+    <address>
+      <street>Room 57</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>shitman@gmail.com</email_id>
+    <reservation res_id="Res57" room="R607">
+      <date_in>2022-06-07</date_in>
+      <date_out>2022-06-14</date_out>
+      <res_date>2022-06-07</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6080">
+    <name>klaus</name>
+    <phNo>6080</phNo>
+    <address>
+      <street>Room 58</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>klaus@gmail.com</email_id>
+    <reservation res_id="Res58" room="R608">
+      <date_in>2022-06-08</date_in>
+      <date_out>2022-06-16</date_out>
+      <res_date>2022-06-08</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6090">
+    <name>heroman</name>
+    <phNo>6090</phNo>
+    <address>
+      <street>Room 59</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>heroman@gmail.com</email_id>
+    <reservation res_id="Res59" room="R609">
+      <date_in>2022-06-09</date_in>
+      <date_out>2022-06-18</date_out>
+      <res_date>2022-06-09</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C6100">
+    <name>Araj</name>
+    <phNo>6100</phNo>
+    <address>
+      <street>Room 60</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>Araj@gmail.com</email_id>
+    <reservation res_id="Res60" room="R610">
+      <date_in>2022-06-10</date_in>
+      <date_out>2022-06-20</date_out>
+      <res_date>2022-06-10</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7010">
+    <name>lokush</name>
+    <phNo>7010</phNo>
+    <address>
+      <street>Room 61</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>lokush@gmail.com</email_id>
+    <reservation res_id="Res61" room="R701">
+      <date_in>2022-07-01</date_in>
+      <date_out>2022-07-02</date_out>
+      <res_date>2022-07-01</res_date>
+    </reservation>
+    <reservation res_id="Res71" room="R701">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res72" room="R701">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7020">
+    <name>yuva</name>
+    <phNo>7020</phNo>
+    <address>
+      <street>Room 62</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>yuva@gmail.com</email_id>
+    <reservation res_id="Res62" room="R702">
+      <date_in>2022-07-02</date_in>
+      <date_out>2022-07-04</date_out>
+      <res_date>2022-07-02</res_date>
+    </reservation>
+    <reservation res_id="Res73" room="R702">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res74" room="R702">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7030">
+    <name>harsha</name>
+    <phNo>7030</phNo>
+    <address>
+      <street>Room 63</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>harsha@gmail.com</email_id>
+    <reservation res_id="Res63" room="R703">
+      <date_in>2022-07-03</date_in>
+      <date_out>2022-07-06</date_out>
+      <res_date>2022-07-03</res_date>
+    </reservation>
+    <reservation res_id="Res75" room="R703">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res76" room="R703">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7040">
+    <name>palla</name>
+    <phNo>7040</phNo>
+    <address>
+      <street>Room 64</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>palla@gmail.com</email_id>
+    <reservation res_id="Res64" room="R704">
+      <date_in>2022-07-04</date_in>
+      <date_out>2022-07-08</date_out>
+      <res_date>2022-07-04</res_date>
+    </reservation>
+    <reservation res_id="Res77" room="R704">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res78" room="R704">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7050">
+    <name>pragya</name>
+    <phNo>7050</phNo>
+    <address>
+      <street>Room 65</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>pragya@gmail.com</email_id>
+    <reservation res_id="Res65" room="R705">
+      <date_in>2022-07-05</date_in>
+      <date_out>2022-07-10</date_out>
+      <res_date>2022-07-05</res_date>
+    </reservation>
+    <reservation res_id="Res79" room="R705">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res80" room="R705">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7060">
+    <name>garvika</name>
+    <phNo>7060</phNo>
+    <address>
+      <street>Room 66</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>garvika@gmail.com</email_id>
+    <reservation res_id="Res66" room="R706">
+      <date_in>2022-07-06</date_in>
+      <date_out>2022-07-12</date_out>
+      <res_date>2022-07-06</res_date>
+    </reservation>
+    <reservation res_id="Res81" room="R706">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res82" room="R706">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+    <reservation res_id="Res83" room="R706">
+      <date_in>2022-03-01</date_in>
+      <date_out>2022-03-02</date_out>
+      <res_date>2022-03-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7070">
+    <name>anish</name>
+    <phNo>7070</phNo>
+    <address>
+      <street>Room 67</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>anish@gmail.com</email_id>
+    <reservation res_id="Res67" room="R707">
+      <date_in>2022-07-07</date_in>
+      <date_out>2022-07-14</date_out>
+      <res_date>2022-07-07</res_date>
+    </reservation>
+    <reservation res_id="Res84" room="R707">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res85" room="R707">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+    <reservation res_id="Res86" room="R707">
+      <date_in>2022-03-01</date_in>
+      <date_out>2022-03-02</date_out>
+      <res_date>2022-03-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7080">
+    <name>seshank</name>
+    <phNo>7080</phNo>
+    <address>
+      <street>Room 68</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>seshank@gmail.com</email_id>
+    <reservation res_id="Res68" room="R708">
+      <date_in>2022-07-08</date_in>
+      <date_out>2022-07-16</date_out>
+      <res_date>2022-07-08</res_date>
+    </reservation>
+    <reservation res_id="Res87" room="R708">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res88" room="R708">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+    <reservation res_id="Res89" room="R708">
+      <date_in>2022-03-01</date_in>
+      <date_out>2022-03-02</date_out>
+      <res_date>2022-03-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7090">
+    <name>sohum</name>
+    <phNo>7090</phNo>
+    <address>
+      <street>Room 69</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>sohum@gmail.com</email_id>
+    <reservation res_id="Res69" room="R709">
+      <date_in>2022-07-09</date_in>
+      <date_out>2022-07-18</date_out>
+      <res_date>2022-07-09</res_date>
+    </reservation>
+    <reservation res_id="Res90" room="R709">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res91" room="R709">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+    <reservation res_id="Res92" room="R709">
+      <date_in>2022-03-01</date_in>
+      <date_out>2022-03-02</date_out>
+      <res_date>2022-03-01</res_date>
+    </reservation>
+  </customer>
+  <customer cust_id="C7100">
+    <name>gowtham</name>
+    <phNo>7100</phNo>
+    <address>
+      <street>Room 70</street>
+      <city>Chennai</city>
+      <state>Tamil Nadu</state>
+    </address>
+    <email_id>gowtham@gmail.com</email_id>
+    <reservation res_id="Res70" room="R710">
+      <date_in>2022-07-10</date_in>
+      <date_out>2022-07-20</date_out>
+      <res_date>2022-07-10</res_date>
+    </reservation>
+    <reservation res_id="Res93" room="R710">
+      <date_in>2022-01-01</date_in>
+      <date_out>2022-01-02</date_out>
+      <res_date>2022-01-01</res_date>
+    </reservation>
+    <reservation res_id="Res94" room="R710">
+      <date_in>2022-02-01</date_in>
+      <date_out>2022-02-02</date_out>
+      <res_date>2022-02-01</res_date>
+    </reservation>
+    <reservation res_id="Res95" room="R710">
+      <date_in>2022-03-01</date_in>
+      <date_out>2022-03-02</date_out>
+      <res_date>2022-03-01</res_date>
+    </reservation>
+  </customer>
+  <service service_id="S1" service_name="Room Cleaning" cost="200"/>
+  <service service_id="S2" service_name="Laundry" cost="500"/>
+  <service service_id="S3" service_name="Ironing" cost="100"/>
+  <service service_id="S4" service_name="Car Rental" cost="2000"/>
+  <amenity>
+    <name>Swimming Pool</name>
+    <booking booking_id="b1" cust_id="C1010">
+      <name>liam</name>
+      <date>2022-01-01</date>
+      <slot time="17:00"/>
+      <no_of_ppl>4</no_of_ppl>
+    </booking>
+    <booking booking_id="b2" cust_id="C1010">
+      <name>liam</name>
+      <date>2022-01-01</date>
+      <slot time="18:00"/>
+      <no_of_ppl>4</no_of_ppl>
+    </booking>
+    <booking booking_id="b6" cust_id="C6010">
+      <name>leo</name>
+      <date>2022-06-01</date>
+      <slot time="14:00"/>
+      <no_of_ppl>2</no_of_ppl>
+    </booking>
+  </amenity>
+  <amenity max_capacity="6">
+    <name>Spa and Massage</name>
+    <booking booking_id="b7" cust_id="C1020">
+      <name>noah</name>
+      <date>2022-01-03</date>
+      <slot time="10:00"/>
+      <no_of_ppl>1</no_of_ppl>
+    </booking>
+    <booking booking_id="b3" cust_id="C1030">
+      <name>oliver</name>
+      <date>2022-01-03</date>
+      <slot time="10:00"/>
+      <no_of_ppl>2</no_of_ppl>
+    </booking>
+  </amenity>
+  <amenity max_capacity="15">
+    <name>Gym</name>
+    <booking booking_id="b4" cust_id="C1040">
+      <name>elijah</name>
+      <date>2022-01-04</date>
+      <slot time="7:00"/>
+      <no_of_ppl>5</no_of_ppl>
+    </booking>
+  </amenity>
+  <amenity>
+    <name>Banquet Hall</name>
+    <booking booking_id="b5" cust_id="C1050">
+      <name>james</name>
+      <date>2022-01-06</date>
+      <slot time="8:00"/>
+      <no_of_ppl>7</no_of_ppl>
+    </booking>
+  </amenity>
+</hotel>

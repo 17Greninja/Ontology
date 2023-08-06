@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT hotel (name,address,phNo+,website?,email_id,dept+,room+,customer*,service*,amenity*)>
+<!ATTLIST hotel hotel_id ID #REQUIRED>
+<!ATTLIST hotel rating (1|2|3|4|5) #IMPLIED>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT address (street,city,state,pincode?)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT pincode (#PCDATA)>
+
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT email_id (#PCDATA)>
+<!ELEMENT phNo (#PCDATA)>
+
+<!ELEMENT dept (name, phNo, employee+)>
+<!ATTLIST dept dept_id ID #REQUIRED>
+<!ATTLIST dept head IDREF #REQUIRED>
+
+<!ELEMENT employee (name, address, phNo, login_detail, role, assistant?)>
+<!ATTLIST employee emp_id ID #REQUIRED>
+<!ELEMENT assistant (employee)>
+
+<!ELEMENT login_detail EMPTY>
+<!ATTLIST login_detail login_id ID #REQUIRED>
+<!ATTLIST login_detail password CDATA #REQUIRED>
+
+<!ELEMENT role (#PCDATA)>
+
+<!ELEMENT customer (name, phNo, address, email_id, reservation+)>
+<!ATTLIST customer cust_id ID #REQUIRED>
+
+<!ELEMENT reservation (date_in,date_out,res_date)>
+<!ATTLIST reservation res_id ID #REQUIRED>
+<!ATTLIST reservation room IDREF #REQUIRED>
+
+<!ELEMENT room (room_type)>
+<!ATTLIST room room_no ID #REQUIRED>
+<!ATTLIST room floor CDATA #REQUIRED>
+
+<!ELEMENT room_type EMPTY>
+<!ATTLIST room_type type (luxury|regular) "regular">
+<!ATTLIST room_type cost CDATA "10000">
+
+<!ELEMENT date_in (#PCDATA)>
+<!ELEMENT date_out (#PCDATA)>
+<!ELEMENT res_date (#PCDATA)>
+
+<!ELEMENT service EMPTY>
+<!ATTLIST service service_id ID #REQUIRED>
+<!ATTLIST service service_name CDATA #REQUIRED>
+<!ATTLIST service cost CDATA #REQUIRED>
+
+<!ELEMENT amenity (name,booking*)>
+<!ATTLIST amenity max_capacity CDATA #IMPLIED>
+
+<!ELEMENT booking (name, date, slot, no_of_ppl)>
+<!ATTLIST booking booking_id ID #REQUIRED>
+<!ATTLIST booking cust_id IDREF #REQUIRED>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT no_of_ppl (#PCDATA)>
+<!ELEMENT slot EMPTY>
+<!ATTLIST slot duration_hrs CDATA #FIXED "1">
+<!ATTLIST slot time CDATA #REQUIRED>
+ 
+<!ENTITY reg_cost "10000">
+<!ENTITY med_cost "15000">
+<!ENTITY lux_cost "20000">

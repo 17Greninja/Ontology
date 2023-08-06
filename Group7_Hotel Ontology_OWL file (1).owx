@@ -1,0 +1,922 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/yuvan/ontologies/2023/3/Team7HotelOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/yuvan/ontologies/2023/3/Team7HotelOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/yuvan/ontologies/2023/3/Team7HotelOntology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">The Grand IITians Hotel Ontology - Team 7</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amenity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BanquetHall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Booking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarRental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Customer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeptHead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeptID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmpID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotelID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotelRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ironing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laundry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Login"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NiceHotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Password"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhoneNo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reservation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Room"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoomCleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoomCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoomType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceCost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpaAndMassage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SwimmingPool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Username"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#booked"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#checkIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#checkOut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDepartment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmployee"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFloor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHead"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLogin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPwd"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReservation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRoom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#helps"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBookedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeBooking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reserved"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#worksAs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStreet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWebsite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maxCapacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#noOfPpl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#roomNo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#slotDateTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FiveStarRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FourStarRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OneStarRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThreeStarRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TwoStarRating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20000"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Assistant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Employee"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#helps"/>
+                <Class IRI="#DeptHead"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Booking"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#booked"/>
+                <Class IRI="#Amenity"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBookedBy"/>
+                <Class IRI="#Customer"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Customer"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasID"/>
+                <Class IRI="#CustID"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Customer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasReservation"/>
+            <Class IRI="#Reservation"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Department"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasHead"/>
+            <Class IRI="#Employee"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Department"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasID"/>
+            <Class IRI="#DeptID"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Employee"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasAddress"/>
+                <Class IRI="#Address"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasContact"/>
+                <Class IRI="#PhoneNo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Employee"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#worksAs"/>
+            <Class IRI="#Role"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Employee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasLogin"/>
+            <Class IRI="#Username"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Floor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRoom"/>
+            <Class IRI="#Room"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hotel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFloor"/>
+            <Class IRI="#Floor"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hotel"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasID"/>
+            <Class IRI="#HotelID"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HotelRating"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#FiveStarRating"/>
+            <NamedIndividual IRI="#FourStarRating"/>
+            <NamedIndividual IRI="#OneStarRating"/>
+            <NamedIndividual IRI="#ThreeStarRating"/>
+            <NamedIndividual IRI="#TwoStarRating"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NiceHotel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <ObjectUnionOf>
+                <Class IRI="#Amenity"/>
+                <Class IRI="#Service"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Reservation"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#checkIn"/>
+                <Class IRI="#Date"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#checkOut"/>
+                <Class IRI="#Date"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#madeOn"/>
+                <Class IRI="#Date"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Reservation"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#reserved"/>
+            <Class IRI="#Room"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RoomCost"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#10000"/>
+            <NamedIndividual IRI="#15000"/>
+            <NamedIndividual IRI="#20000"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Service"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#costs"/>
+                <Class IRI="#ServiceCost"/>
+            </ObjectSomeValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasID"/>
+                <Class IRI="#ServiceID"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Username"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPwd"/>
+            <Class IRI="#Password"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Assistant"/>
+        <Class IRI="#Employee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BanquetHall"/>
+        <Class IRI="#Amenity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarRental"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Customer"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasAddress"/>
+                <Class IRI="#Address"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasContact"/>
+                <Class IRI="#Email"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasContact"/>
+                <Class IRI="#PhoneNo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeptHead"/>
+        <Class IRI="#Employee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#Department"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employee"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasID"/>
+            <Class IRI="#EmpID"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gym"/>
+        <Class IRI="#Amenity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasContact"/>
+                <Class IRI="#Email"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasContact"/>
+                <Class IRI="#PhoneNo"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDepartment"/>
+                <Class IRI="#Department"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasDepartment"/>
+                <Class IRI="#Department"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAddress"/>
+            <Class IRI="#Address"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ironing"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laundry"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NiceHotel"/>
+        <Class IRI="#Hotel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Password"/>
+        <Class IRI="#Login"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhoneNo"/>
+        <Class IRI="#Contact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Room"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#costs"/>
+                <Class IRI="#RoomCost"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#ofType"/>
+                <Class IRI="#RoomType"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoomCleaning"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoomCost"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceCost"/>
+        <Class IRI="#Cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpaAndMassage"/>
+        <Class IRI="#Amenity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SwimmingPool"/>
+        <Class IRI="#Amenity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Username"/>
+        <Class IRI="#Login"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Amenity"/>
+        <Class IRI="#Service"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BanquetHall"/>
+        <Class IRI="#Gym"/>
+        <Class IRI="#SpaAndMassage"/>
+        <Class IRI="#SwimmingPool"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CarRental"/>
+        <Class IRI="#Ironing"/>
+        <Class IRI="#Laundry"/>
+        <Class IRI="#RoomCleaning"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#HotelRating"/>
+        <NamedIndividual IRI="#FiveStarRating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HotelRating"/>
+        <NamedIndividual IRI="#FourStarRating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HotelRating"/>
+        <NamedIndividual IRI="#OneStarRating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HotelRating"/>
+        <NamedIndividual IRI="#ThreeStarRating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HotelRating"/>
+        <NamedIndividual IRI="#TwoStarRating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoomCost"/>
+        <NamedIndividual IRI="#10000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoomCost"/>
+        <NamedIndividual IRI="#15000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoomCost"/>
+        <NamedIndividual IRI="#20000"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#checkIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#checkOut"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#madeOn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#hasEmployee"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isBookedBy"/>
+        <ObjectProperty IRI="#madeBooking"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#booked"/>
+        <Class IRI="#Booking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEmployee"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFloor"/>
+        <Class IRI="#Hotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPwd"/>
+        <Class IRI="#Username"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Hotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReservation"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRoom"/>
+        <Class IRI="#Floor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#helps"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBookedBy"/>
+        <Class IRI="#Booking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#madeBooking"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofType"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#NiceHotel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reserved"/>
+        <Class IRI="#Reservation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#worksAs"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#booked"/>
+        <Class IRI="#Amenity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#checkIn"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#checkOut"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#costs"/>
+        <Class IRI="#Cost"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAddress"/>
+        <Class IRI="#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContact"/>
+        <Class IRI="#Contact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDepartment"/>
+        <Class IRI="#Department"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEmployee"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFloor"/>
+        <Class IRI="#Floor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHead"/>
+        <Class IRI="#DeptHead"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasID"/>
+        <ObjectUnionOf>
+            <Class IRI="#CustID"/>
+            <Class IRI="#DeptID"/>
+            <Class IRI="#EmpID"/>
+            <Class IRI="#HotelID"/>
+            <Class IRI="#ServiceID"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLogin"/>
+        <Class IRI="#Username"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPwd"/>
+        <Class IRI="#Password"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#HotelRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReservation"/>
+        <Class IRI="#Reservation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRoom"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#helps"/>
+        <Class IRI="#Employee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBookedBy"/>
+        <Class IRI="#Customer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#madeBooking"/>
+        <Class IRI="#Booking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#madeOn"/>
+        <Class IRI="#Date"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofType"/>
+        <Class IRI="#RoomType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offers"/>
+        <ObjectUnionOf>
+            <Class IRI="#Amenity"/>
+            <Class IRI="#Service"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reserved"/>
+        <Class IRI="#Room"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#worksAs"/>
+        <Class IRI="#Role"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCity"/>
+        <Class IRI="#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasState"/>
+        <Class IRI="#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasStreet"/>
+        <Class IRI="#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWebsite"/>
+        <Class IRI="#Hotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maxCapacity"/>
+        <Class IRI="#Amenity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#noOfPpl"/>
+        <Class IRI="#Booking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roomNo"/>
+        <Class IRI="#Room"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#slotDateTime"/>
+        <Class IRI="#Booking"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasState"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasStreet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWebsite"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maxCapacity"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#noOfPpl"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#roomNo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#slotDateTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hotel</IRI>
+        <Literal xml:lang="en">The hotel concept will have their respective names as elements.Since a hotel ID uniquely identifies a hotel, a hotel can have only one hotel ID and each ID can correspond to only one hotel.This is expressed by hasID exactly 1 HotelID.Only a hotel can have a rating , So the Rating is given as HotelRating concept which has 5 instances and is equivalent to the or of the 5 instances.Only  hotel can have a website so we made hasWebsite as data property whose range is a string which contains the website.A hotel has an address and phone number.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HotelRating</IRI>
+        <Literal xml:lang="en">Consists of exactly 5 individuals</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

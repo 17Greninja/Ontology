@@ -1,0 +1,10 @@
+For, running the program: python3 a4.py
+
+This is will generate the required files:
+
+The main program a4.py extracts the rdf triples and stores them in the extracted.rdf file.
+The room.rdf file contains only the triples, it is a subset of the extracted.rdf file.
+The inferred triples are stored in the inferred.rdf file.
+hotel.xml contains the xml data
+a3.owl has the ontolgy from assignment 3.
+The consistency of the rdf triples has been checked using the HermiT reasoner, and the triples are consistent.
